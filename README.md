@@ -51,9 +51,9 @@ $ django-admin startproject myFirstWebSite
 This will create the following file directory structure
 
 ```bash
-mysite/
+myFirstWebSite/
     manage.py
-    mysite/
+    myFirstWebSite/
         __init__.py
         settings.py
         urls.py
