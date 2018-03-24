@@ -48,11 +48,32 @@ call project myFirstWebSite
 $ django-admin startproject myFirstWebSite
 ```
 
+This will create the following file directory structure
+
+```bash
+mysite/
+    manage.py
+    mysite/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+```
+
 ## Run server
 
-start server on localhost and port 8000
+start server on localhost and default port 8000
 
 ```bash
 $ cd myFirstWebSite
 $ python3 manage.py runserver
 ```
+to check the server is working load localhost:8000
+
+for custom port 8080
+
+```bash
+$ python3 manage.py runserver 8080
+```
+
+## Set up views page
