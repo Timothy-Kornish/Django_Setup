@@ -88,7 +88,6 @@ This will create the following file directory structure
 ```bash
 HelloWorld/
     migrations/
-    myFirstWebSite/
         __init__.py
         admin.py
         apps.py
