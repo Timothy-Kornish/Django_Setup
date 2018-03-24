@@ -1,6 +1,6 @@
 # Django_Setup
 
-# Setting up Django Server
+## Setting up Django
 
 - clone Django repo
 ```bash
@@ -38,4 +38,21 @@ To exit ipython type quit and press the enter key:
 In [1]: import django
 
 In [2]: quit
+```
+
+## Create a Django Project
+
+call project myFirstWebSite
+
+```bash
+$ django-admin startproject myFirstWebSite
+```
+
+## Run server
+
+start server on localhost and port 8000
+
+```bash
+$ cd myFirstWebSite
+$ python3 manage.py runserver
 ```
