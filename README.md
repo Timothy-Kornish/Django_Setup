@@ -76,4 +76,23 @@ for custom port 8080
 $ python3 manage.py runserver 8080
 ```
 
-## Set up views page
+## Set up Hello World Text on app home page
+
+create HelloWorld app
+
+```bash
+$ python3 manage.py startapp HelloWorld
+```
+This will create the following file directory structure
+
+```bash
+HelloWorld/
+    migrations/
+    myFirstWebSite/
+        __init__.py
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        views.py
+```
